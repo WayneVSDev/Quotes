@@ -54,9 +54,14 @@
     .chinese {
       font-weight: bold;
       color: #34495e;
+      margin-bottom: 5px;
+    }
+    .hanyupinyin {
+      font-style: italic;
+      color: #7f8c8d;
       margin-bottom: 10px;
     }
-    .English, .japanese, .katakana {
+    .english, .japanese, .katakana, .french {
       font-weight: normal;
       color: #7f8c8d;
     }
@@ -69,374 +74,47 @@
     <div class="card-container">
       <div class="card" onclick="reveal(this)">
         <div class="chinese">释迦摩尼有四句极具灵性的话：</div>
-        <div class="english hidden">Shakyamuni has four highly spiritual sayings:</div>
-        <div class="japanese hidden">釈迦牟尼の四つの深い霊的な言葉：</div>
-        <div class="katakana hidden">シャカムニ ノ ヨッツ ノ フカイ レイテキナ コトバ：</div>
-        <div class="french hidden">Shakyamuni a quatre paroles hautement spirituelles :</div>
+        <div class="hanyupinyin">Shìjiāmóní yǒu sì jù jí jù língxìng de huà:</div>
+        <div class="english hidden">Shakyamuni Buddha has four highly spiritual sayings:</div>
+        <div class="japanese hidden">釈迦牟尼には4つの非常に精神的な言葉があります：</div>
+        <div class="katakana hidden">シャカムニ ブッダ ニワ ヨッツノ ヒジョウニ セイシンテキナ コトバ ガ アリマス：</div>
+        <div class="french hidden">Shakyamuni Bouddha a quatre dictons hautement spirituels :</div>
       </div>
       
       <div class="card" onclick="reveal(this)">
         <div class="chinese">1、无论你遇见谁，他都是你生命中该出现的人，绝非偶然；</div>
-        <div class="english hidden">1. Whoever you meet, they are the person who should appear in your life, not by chance;</div>
-        <div class="japanese hidden">1. 誰に出会っても、その人はあなたの人生に現れるべき人であり、決して偶然ではない；</div>
-        <div class="katakana hidden">1. ダレニ デアッテモ、ソノヒトハ アナタノ ジンセイニ アラワレルベキ ヒトデアリ、ケッシテ グウゼンデハ ナイ；</div>
-        <div class="french hidden">1. Qui que vous rencontriez, c'est la personne qui devait apparaître dans votre vie, ce n'est pas par hasard ;</div>
+        <div class="hanyupinyin">1. Wúlùn nǐ yùjiàn shéi, tā dōu shì nǐ shēngmìng zhōng gāi chūxiàn de rén, juébùi ǒurán;</div>
+        <div class="english hidden">1. Whoever you meet, they are the person meant to appear in your life, never by chance;</div>
+        <div class="japanese hidden">1. 誰に会っても、その人はあなたの人生に現れるべき人であり、決して偶然ではありません。</div>
+        <div class="katakana hidden">1. ダレニ アッテモ、ソノヒトワ アナタノ ジンセイニ アラワレルベキ ヒトデアリ、ケッシテ グウゼンデワ アリマセン。</div>
+        <div class="french hidden">1. Qui que vous rencontriez, c'est la personne destinée à apparaître dans votre vie, jamais par hasard ;</div>
       </div>
       
       <div class="card" onclick="reveal(this)">
         <div class="chinese">2、无论发生什么事，那都是唯一会发生的事；</div>
-        <div class="english hidden">2. Whatever happens, that is the only thing that could have happened;</div>
-        <div class="japanese hidden">2. 何が起ころうとも、それは起こるべくして起こった唯一のことである；</div>
-        <div class="katakana hidden">2. ナニガ オコロウトモ、ソレハ オコルベクシテ オコッタ ユイイツノ コトデアル；</div>
-        <div class="french hidden">2. Quoi qu'il arrive, c'est la seule chose qui pouvait arriver ;</div>
+        <div class="hanyupinyin">2. Wúlùn fāshēng shénme shì, nà dōu shì wéiyī huì fāshēng de shì;</div>
+        <div class="english hidden">2. Whatever happens, it is the only thing that could have happened;</div>
+        <div class="japanese hidden">2. 何が起こっても、それは起こるべくして起こったことです。</div>
+        <div class="katakana hidden">2. ナニガ オコッテモ、ソレワ オコルベクシテ オコッタ コトデス。</div>
+        <div class="french hidden">2. Quoi qu'il arrive, c'est la seule chose qui aurait pu se produire ;</div>
       </div>
       
       <div class="card" onclick="reveal(this)">
         <div class="chinese">3、不管事情开始于哪个时刻，都是对的时刻；</div>
-        <div class="english hidden">3. No matter when something starts, it is the right moment;</div>
-        <div class="japanese hidden">3. 物事がいつ始まろうとも、それは正しい瞬間である；</div>
-        <div class="katakana hidden">3. モノゴトガ イツ ハジマロウトモ、ソレハ タダシイ シュンカンデアル；</div>
+        <div class="hanyupinyin">3. Bùguǎn shìqing kāishǐ yú nǎge shíkè, dōu shì duì de shíkè;</div>
+        <div class="english hidden">3. No matter when something begins, it is the right moment;</div>
+        <div class="japanese hidden">3. 物事がいつ始まっても、それは正しい瞬間です。</div>
+        <div class="katakana hidden">3. モノゴトガ イツ ハジマッテモ、ソレワ タダシイ シュンカンデス。</div>
         <div class="french hidden">3. Peu importe quand quelque chose commence, c'est le bon moment ;</div>
       </div>
       
       <div class="card" onclick="reveal(this)">
         <div class="chinese">4、已经结束的，就已经结束了。</div>
-        <div class="english hidden">4. What has ended, has already ended.</div>
-        <div class="japanese hidden">4. 終わったことは、もう終わっている。</div>
-        <div class="katakana hidden">4. オワッタ コトハ、モウ オワッテイル。</div>
-        <div class="french hidden">4. Ce qui est terminé, est déjà terminé.</div>
-      </div>
-
-
-      <div class="card" onclick="reveal(this)">
-        <div class="chinese">有目标的人在奔跑，沒目标的人在流浪</div>
-        <div class="english hidden">Those with goals are running, those without goals are wandering</div>
-        <div class="japanese hidden">目標がある人は走っている、目標がない人はさまよっている</div>
-        <div class="katakana hidden">モクヒョウ ガ アル ヒト ハ ハシッテイル、モクヒョウ ガ ナイ ヒト ハ サマヨッテイル</div>
-        <div class="french hidden">Ceux qui ont des objectifs courent, ceux qui n'en ont pas errent</div>
-      </div>
-      
-      <div class="card" onclick="reveal(this)">
-        <div class="chinese">不管遇到了什么烦心事，都不要自己为难自己；无论今天发生多么糟糕的事，都不要对生活失望，因为还有明天。</div>
-        <div class="english hidden">No matter what troubles you encounter, don't make things difficult for yourself; no matter how bad things are today, don't be disappointed with life, because there's always tomorrow.</div>
-        <div class="japanese hidden">どんな悩みに遭遇しても、自分を苦しめないでください。今日がどんなに悪い日でも、人生に失望しないでください。なぜなら、明日があるからです。</div>
-        <div class="katakana hidden">ドンナ ナヤミ ニ ソウグウ シテモ、ジブン ヲ クルシメナイデ クダサイ。キョウ ガ ドンナニ ワルイ ヒ デモ、ジンセイ ニ シツボウ シナイデ クダサイ。ナゼナラ、アシタ ガ アルカラ デス。</div>
-        <div class="french hidden">Quels que soient les problèmes que vous rencontrez, ne vous rendez pas la vie difficile ; peu importe à quel point les choses sont mauvaises aujourd'hui, ne soyez pas déçu de la vie, car il y a toujours demain.</div>
-      </div>
-      
-      <div class="card" onclick="reveal(this)">
-        <div class="chinese">做人智商高不高没关系，情商高不高也问题不大，但做人的格局一定要大，说白了，你可以不聪明，也可以不懂交际，但一定要大气。</div>
-        <div class="english hidden">It doesn't matter if your IQ is high or not, or if your EQ is high or not, but your mindset must be broad. In simple terms, you can be not smart, you can be not good at socializing, but you must be generous and open-minded.</div>
-        <div class="japanese hidden">知能指数が高いか低いかは関係ありません。感情指数が高いか低いかも大きな問題ではありません。しかし、人としての器は大きくなければなりません。簡単に言えば、頭が良くなくてもいい、社交的でなくてもいいですが、必ず度量が広くなければなりません。</div>
-        <div class="katakana hidden">チノウシスウ ガ タカイカ ヒクイカ ハ カンケイ アリマセン。カンジョウシスウ ガ タカイカ ヒクイカ モ オオキナ モンダイ デハ アリマセン。シカシ、ヒト トシテノ ウツワ ハ オオキク ナケレバ ナリマセン。カンタン ニ イエバ、アタマ ガ ヨクナクテモ イイ、シャコウテキ デナクテモ イイデスガ、カナラズ ドリョウ ガ ヒロク ナケレバ ナリマセン。</div>
-        <div class="french hidden">Peu importe que votre QI soit élevé ou non, ou que votre QE soit élevé ou non, mais votre état d'esprit doit être large. En termes simples, vous pouvez ne pas être intelligent, vous pouvez ne pas être bon en socialisation, mais vous devez être généreux et ouvert d'esprit.</div>
-      </div>
-      
-      <div class="card" onclick="reveal(this)">
-        <div class="chinese">如果一点点挫折就让你爬不起来，如果一两句坏话、就让你不能释怀，如果动不动就讨厌人，憎恨人，那格局就太小了。</div>
-        <div class="english hidden">If a small setback makes you unable to get up, if one or two bad words make you unable to let go, if you easily dislike or hate people, then your mindset is too narrow.</div>
-        <div class="japanese hidden">ちょっとした挫折で立ち直れないなら、一言二言の悪口で心が晴れないなら、ちょっとしたことで人を嫌ったり憎んだりするなら、そのマインドセットは狭すぎます。</div>
-        <div class="katakana hidden">チョットシタ ザセツ デ タチナオレナイナラ、ヒトコトフタコト ノ ワルクチ デ ココロ ガ ハレナイナラ、チョットシタ コト デ ヒト ヲ キラッタリ ニクンダリ スルナラ、ソノ マインドセット ハ セマスギマス。</div>
-        <div class="french hidden">Si un petit revers vous empêche de vous relever, si un ou deux mots méchants vous empêchent de lâcher prise, si vous n'aimez ou détestez facilement les gens, alors votre état d'esprit est trop étroit.</div>
-      </div>
-      
-      <div class="card" onclick="reveal(this)">
-        <div class="chinese">放下你的浮躁，放下你的懒惰，放下你的三分钟热度，放空你禁不住诱惑的大脑，放开你容易被任何事物吸引的眼睛，放淡你什么都想聊两句八卦的嘴巴，静下心来好好做你该做的事，该好好努力了！有时候真的努力后，你会发现自己要比想象的优秀很多。</div>
-        <div class="english hidden">Let go of your impatience, let go of your laziness, let go of your short-lived enthusiasm, empty your mind that can't resist temptation, free your eyes that are easily attracted to anything, calm your mouth that wants to gossip about everything, quiet down and do what you should do, it's time to work hard! Sometimes after real effort, you'll find yourself much better than you imagined.</div>
-        <div class="japanese hidden">焦りを手放し、怠惰を手放し、三分間の熱意を手放し、誘惑に負けそうな脳を空っぽにし、何にでも簡単に惹かれる目を解放し、何でも噂話をしたがる口を静め、落ち着いてやるべきことをやり、しっかり頑張るときです！時には本当に努力した後、自分が想像以上に優れていることに気づくでしょう。</div>
-        <div class="katakana hidden">アセリ ヲ テバナシ、タイダ ヲ テバナシ、サンプンカン ノ ネツイ ヲ テバナシ、ユウワク ニ マケソウナ ノウ ヲ カラッポ ニシ、ナニ ニデモ カンタン ニ ヒカレル メ ヲ カイホウシ、ナンデモ ウワサバナシ ヲ シタガル クチ ヲ シズメ、オチツイテ ヤルベキコト ヲ ヤリ、シッカリ ガンバル トキ デス！トキニハ ホントウ ニ ドリョク シタ アト、ジブン ガ ソウゾウイジョウ ニ スグレテイル コト ニ キヅク デショウ。</div>
-        <div class="french hidden">Lâchez votre impatience, lâchez votre paresse, lâchez votre enthousiasme de courte durée, videz votre esprit qui ne peut résister à la tentation, libérez vos yeux qui sont facilement attirés par n'importe quoi, calmez votre bouche qui veut bavarder sur tout, calmez-vous et faites ce que vous devez faire, il est temps de travailler dur ! Parfois, après un véritable effort, vous vous trouverez bien meilleur que vous ne l'imaginiez.</div>
-      </div>
-      
-      <div class="card" onclick="reveal(this)">
-        <div class="chinese">世上除了生死，其它都是小事。不管遇到了什么烦心事，都不要自己为难自己;无论今天发生多么糟糕的事，都不要对生活失望，因为还有明天。</div>
-        <div class="english hidden">In this world, except for life and death, everything else is a small matter. No matter what troubles you encounter, don't make things difficult for yourself; no matter how bad things are today, don't be disappointed with life, because there's always tomorrow.</div>
-        <div class="japanese hidden">この世では、生死以外はすべて些細なことです。どんな悩みに遭遇しても、自分を苦しめないでください。今日がどんなに悪い日でも、人生に失望しないでください。なぜなら、明日があるからです。</div>
-        <div class="katakana hidden">コノヨ デハ、セイシ イガイ ハ スベテ ササイナ コト デス。ドンナ ナヤミ ニ ソウグウ シテモ、ジブン ヲ クルシメナイデ クダサイ。キョウ ガ ドンナニ ワルイ ヒ デモ、ジンセイ ニ シツボウ シナイデ クダサイ。ナゼナラ、アシタ ガ アルカラ デス。</div>
-        <div class="french hidden">Dans ce monde, à part la vie et la mort, tout le reste est une petite affaire. Quels que soient les problèmes que vous rencontrez, ne vous rendez pas la vie difficile ; peu importe à quel point les choses sont mauvaises aujourd'hui, ne soyez pas déçu de la vie, car il y a toujours demain.</div>
-      </div>
-      
-      <div class="card" onclick="reveal(this)">
-        <div class="chinese">有目标的人在奔跑，沒目标的人在流浪，因为不知道要去哪里！有目标的人在感恩，沒目标的人在报怨，因为觉得全世界都欠他的！</div>
-        <div class="english hidden">People with goals are running, people without goals are wandering, because they don't know where to go! People with goals are grateful, people without goals are complaining, because they feel the whole world owes them!</div>
-        <div class="japanese hidden">目標がある人は走っています。目標がない人はさまよっています。行き先がわからないからです！目標がある人は感謝しています。目標がない人は不平を言っています。世界中が自分に借りがあると感じているからです！</div>
-        <div class="katakana hidden">モクヒョウ ガ アル ヒト ハ ハシッテイマス。モクヒョウ ガ ナイ ヒト ハ サマヨッテイマス。イキサキ ガ ワカラナイ カラデス！モクヒョウ ガ アル ヒト ハ カンシャ シテイマス。モクヒョウ ガ ナイ ヒト ハ フヘイ ヲ イッテイマス。セカイジュウ ガ ジブン ニ カリ ガ アル ト カンジテイル カラデス！</div>
-        <div class="french hidden">Les gens avec des objectifs courent, les gens sans objectifs errent, car ils ne savent pas où aller ! Les gens avec des objectifs sont reconnaissants, les gens sans objectifs se plaignent, car ils pensent que le monde entier leur doit quelque chose !</div>
-      </div>
-      <div class="card" onclick="reveal(this)">
-        <div class="chinese">有目标的人睡不着，沒目标的人睡不醒，因为不知道起来去干嘛！生命只有走出来的精彩，沒有等待出来的辉煌！</div>
-        <div class="english hidden">People with goals can't sleep, people without goals can't wake up, because they don't know what to do when they get up! Life only has the brilliance of moving forward, not the glory of waiting!</div>
-        <div class="japanese hidden">目標がある人は眠れません。目標がない人は起きられません。起きて何をすればいいかわからないからです！人生には前に進む輝きはありますが、待っていて得られる栄光はありません！</div>
-        <div class="katakana hidden">モクヒョウ ガ アル ヒト ハ ネムレマセン。モクヒョウ ガ ナイ ヒト ハ オキラレマセン。オキテ ナニ ヲ スレバ イイカ ワカラナイ カラデス！ジンセイ ニハ マエ ニ ススム カガヤキ ハ アリマスガ、マッテイテ エラレル エイコウ ハ アリマセン！</div>
-        <div class="french hidden">Les gens avec des objectifs ne peuvent pas dormir, les gens sans objectifs ne peuvent pas se réveiller, car ils ne savent pas quoi faire quand ils se lèvent ! La vie n'a que l'éclat d'aller de l'avant, pas la gloire d'attendre !</div>
-      </div>
-      
-      <div class="card" onclick="reveal(this)">
-        <div class="chinese">如果，感到此时的自己很辛苦，那告诉自己：容易走的都是下坡路！坚持住，因为你正在走上坡路，走过去，你就一定会有进步。</div>
-        <div class="english hidden">If you feel that you're having a hard time right now, tell yourself: the easy paths are all downhill! Hang in there, because you're walking uphill, and when you get through it, you'll definitely make progress.</div>
-        <div class="japanese hidden">今、自分が辛いと感じているなら、自分に言い聞かせてください：楽に歩ける道は全て下り坂だと。頑張ってください。なぜなら、あなたは上り坂を歩いているからです。それを乗り越えれば、必ず進歩があります。</div>
-        <div class="katakana hidden">イマ、ジブン ガ ツライ ト カンジテイル ナラ、ジブン ニ イイキカセテ クダサイ：ラク ニ アルケル ミチ ハ スベテ クダリザカ ダト。ガンバッテ クダサイ。ナゼナラ、アナタ ハ ノボリザカ ヲ アルイテイル カラデス。ソレ ヲ ノリコエレバ、カナラズ シンポ ガ アリマス。</div>
-        <div class="french hidden">Si vous sentez que vous traversez une période difficile en ce moment, dites-vous : les chemins faciles sont tous en descente ! Tenez bon, car vous êtes en train de monter une pente, et quand vous l'aurez traversée, vous aurez certainement fait des progrès.</div>
-      </div>
-      
-      <div class="card" onclick="reveal(this)">
-        <div class="chinese">如果，你正在埋怨命运不眷顾，那请记住：命，是失败者的借口；运，是成功者的谦词。</div>
-        <div class="english hidden">If you're complaining that fate doesn't favor you, please remember: destiny is the excuse of losers; luck is the modest word of winners.</div>
-        <div class="japanese hidden">もし運命が自分に味方してくれないと不平を言っているなら、覚えておいてください：運命は敗者の言い訳です。運は成功者の謙遜の言葉です。</div>
-        <div class="katakana hidden">モシ ウンメイ ガ ジブン ニ ミカタ シテクレナイ ト フヘイ ヲ イッテイル ナラ、オボエテ オイテ クダサイ：ウンメイ ハ ハイシャ ノ イイワケ デス。ウン ハ セイコウシャ ノ ケンソン ノ コトバ デス。</div>
-        <div class="french hidden">Si vous vous plaignez que le destin ne vous favorise pas, n'oubliez pas : le destin est l'excuse des perdants ; la chance est le mot modeste des gagnants.</div>
-      </div>
-      
-      <div class="card" onclick="reveal(this)">
-        <div class="chinese">命虽由天定，但埋怨，只是一种懦弱的表现。努力，才是人生的态度！相信你！</div>
-        <div class="english hidden">Although fate is determined by heaven, complaining is just a sign of weakness. Effort is the attitude of life! Believe in yourself!</div>
-        <div class="japanese hidden">運命は天によって決められていますが、不平を言うのは単なる弱さの表れです。努力こそが人生の姿勢です！自分を信じてください！</div>
-        <div class="katakana hidden">ウンメイ ハ テン ニヨッテ キメラレテ イマスガ、フヘイ ヲ イウ ノハ タンナル ヨワサ ノ アラワレ デス。ドリョク コソガ ジンセイ ノ シセイ デス！ジブン ヲ シンジテ クダサイ！</div>
-        <div class="french hidden">Bien que le destin soit déterminé par le ciel, se plaindre n'est qu'un signe de faiblesse. L'effort est l'attitude de la vie ! Croyez en vous !</div>
-      </div>
-
-
-
-
-
-      <div class="card" onclick="reveal(this)">
-        <div class="chinese">为什么没有升职加薪</div>
-        <div class="english hidden">Why No Promotion or Raise</div>
-        <div class="japanese hidden">なぜ昇進や昇給がないのか</div>
-        <div class="katakana hidden">ナゼ ショウシン ヤ ショウキュウ ガ ナイノカ</div>
-        <div class="french hidden">Pourquoi pas de promotion ni d'augmentation</div>
-      </div>
-      
-      <div class="card" onclick="reveal(this)">
-        <div class="chinese">到公司工作快三年了，比我后来的同事陆续得到了升职的机会，我却原地不动，心里颇不是滋味。</div>
-        <div class="english hidden">I've been working at the company for almost three years, and colleagues who joined after me have been getting promotions one after another, while I remain stationary. I'm feeling quite uneasy about it.</div>
-        <div class="japanese hidden">会社で働き始めてもうすぐ3年になりますが、私より後から入社した同僚が次々と昇進のチャンスを得ているのに、私は現状維持のままです。心中穏やかではありません。</div>
-        <div class="katakana hidden">カイシャ デ ハタラキハジメテ モウスグ 3ネン ニ ナリマスガ、ワタシ ヨリ アトカラ ニュウシャシタ ドウリョウ ガ ツギツギト ショウシン ノ チャンス ヲ エテイルノニ、ワタシハ ゲンジョウイジ ノ ママデス。シンチュウ オダヤカデハ アリマセン。</div>
-        <div class="french hidden">Je travaille dans l'entreprise depuis presque trois ans, et des collègues arrivés après moi ont obtenu des promotions les uns après les autres, alors que je reste stationnaire. Je me sens assez mal à l'aise à ce sujet.</div>
-      </div>
-      
-      <div class="card" onclick="reveal(this)">
-        <div class="chinese">终于有一天，冒着被解聘的危险，我找到老板理论。"老板、我有过迟到、早退或乱章违纪的现象吗？"我问。</div>
-        <div class="english hidden">Finally one day, risking being fired, I went to reason with the boss. "Boss, have I ever been late, left early, or violated any rules?" I asked.</div>
-        <div class="japanese hidden">ついにある日、解雇のリスクを冒して、上司に話をしに行きました。「社長、私が遅刻したり、早退したり、規則に違反したことはありましたか？」と私は尋ねました。</div>
-        <div class="katakana hidden">ツイニ アルヒ、カイコ ノ リスク ヲ オカシテ、ジョウシ ニ ハナシ ヲ シニ イキマシタ。「シャチョウ、ワタシ ガ チコク シタリ、ソウタイ シタリ、キソク ニ イハン シタ コト ハ アリマシタカ？」ト ワタシ ハ タズネマシタ。</div>
-        <div class="french hidden">Finalement, un jour, risquant d'être licencié, je suis allé raisonner avec le patron. "Patron, ai-je déjà été en retard, parti tôt ou enfreint des règles ?" ai-je demandé.</div>
-      </div>
-      
-      <div class="card" onclick="reveal(this)">
-        <div class="chinese">老板干脆地回答"没有"</div>
-        <div class="english hidden">The boss replied bluntly, "No."</div>
-        <div class="japanese hidden">社長は率直に「いいえ」と答えました。</div>
-        <div class="katakana hidden">シャチョウ ハ ソッチョク ニ「イイエ」ト コタエマシタ。</div>
-        <div class="french hidden">Le patron a répondu sèchement "Non."</div>
-      </div>
-      
-      <div class="card" onclick="reveal(this)">
-        <div class="chinese">"那是公司对我有偏见吗？"</div>
-        <div class="english hidden">"Then does the company have a bias against me?"</div>
-        <div class="japanese hidden">「では、会社は私に偏見を持っているのですか？」</div>
-        <div class="katakana hidden">「デハ、カイシャ ハ ワタシ ニ ヘンケン ヲ モッテイル ノデスカ？」</div>
-        <div class="french hidden">"Alors l'entreprise a-t-elle un préjugé contre moi ?"</div>
-      </div>
-      
-      <div class="card" onclick="reveal(this)">
-        <div class="chinese">老板先是一怔，继而说"当然没有。"</div>
-        <div class="english hidden">The boss was stunned for a moment, then said, "Of course not."</div>
-        <div class="japanese hidden">社長はしばらく驚いた様子でしたが、その後「もちろんありません」と言いました。</div>
-        <div class="katakana hidden">シャチョウ ハ シバラク オドロイタ ヨウス デシタガ、ソノゴ「モチロン アリマセン」ト イイマシタ。</div>
-        <div class="french hidden">Le patron a été stupéfait un instant, puis a dit "Bien sûr que non."</div>
-      </div>
-      
-      <div class="card" onclick="reveal(this)">
-        <div class="chinese">那为什么比我资历浅的人都可以得到重用、而我却一直在微不足道的岗位上？"</div>
-        <div class="english hidden">"Then why do people with less experience than me get important roles, while I'm still in an insignificant position?"</div>
-        <div class="japanese hidden">「では、なぜ私より経験の浅い人たちが重要な役割を与えられているのに、私はずっと取るに足らない立場にいるのですか？」</div>
-        <div class="katakana hidden">「デハ、ナゼ ワタシ ヨリ ケイケン ノ アサイ ヒトタチ ガ ジュウヨウナ ヤクワリ ヲ アタエラレテイルノニ、ワタシ ハ ズット トルニタラナイ タチバ ニ イルノデスカ？」</div>
-        <div class="french hidden">"Alors pourquoi des gens avec moins d'expérience que moi obtiennent-ils des rôles importants, alors que je suis toujours dans une position insignifiante ?"</div>
-      </div>
-      
-      <div class="card" onclick="reveal(this)">
-        <div class="chinese">老板一时语塞，然后笑笑说："你的事咱们等会再说，我手头上有个急事，要不你先帮我处理一下？"</div>
-        <div class="english hidden">The boss was speechless for a moment, then smiled and said, "We'll talk about your matter later. I have an urgent task at hand, why don't you help me handle it first?"</div>
-        <div class="japanese hidden">社長はしばらく言葉に詰まり、そして笑って言いました。「あなたの件は後で話しましょう。今、急ぎの仕事があるので、まずそれを手伝ってくれませんか？」</div>
-        <div class="katakana hidden">シャチョウ ハ シバラク コトバ ニ ツマリ、ソシテ ワラッテ イイマシタ。「アナタ ノ ケン ハ アト デ ハナシマショウ。イマ、イソギ ノ シゴト ガ アルノデ、マズ ソレ ヲ テツダッテ クレマセンカ？」</div>
-        <div class="french hidden">Le patron est resté sans voix un moment, puis a souri et dit : "Nous parlerons de votre affaire plus tard. J'ai une tâche urgente en ce moment, pourquoi ne m'aidez-vous pas à la gérer d'abord ?"</div>
-      </div>
-      
-      <div class="card" onclick="reveal(this)">
-        <div class="chinese">一家客户准备到公司来考察产品状况，老板叫我联系他们，问问何时过来。</div>
-        <div class="english hidden">A client is preparing to come to the company to inspect the product condition. The boss asked me to contact them and ask when they're coming.</div>
-        <div class="japanese hidden">ある顧客が製品の状態を調査するために会社に来る予定です。社長は私に彼らと連絡を取り、いつ来るのか尋ねるように言いました。</div>
-        <div class="katakana hidden">アル コキャク ガ セイヒン ノ ジョウタイ ヲ チョウサ スルタメニ カイシャ ニ クル ヨテイ デス。シャチョウ ハ ワタシ ニ カレラ ト レンラク ヲ トリ、イツ クルノカ タズネルヨウニ イイマシタ。</div>
-        <div class="french hidden">Un client se prépare à venir à l'entreprise pour inspecter l'état du produit. Le patron m'a demandé de les contacter et de leur demander quand ils viennent.</div>
-      </div>
-      
-      <div class="card" onclick="reveal(this)">
-        <div class="chinese">"这真是个重要的任务！" 临出门前，我不忘调侃一句。</div>
-        <div class="english hidden">"This is really an important task!" Before leaving, I didn't forget to make a sarcastic remark.</div>
-        <div class="japanese hidden">「これは本当に重要な任務ですね！」出かける前に、私は皮肉を言うのを忘れませんでした。</div>
-        <div class="katakana hidden">「コレ ハ ホントウニ ジュウヨウナ ニンム デスネ！」デカケル マエニ、ワタシ ハ ヒニク ヲ イウノ ヲ ワスレマセンデシタ。</div>
-        <div class="french hidden">"C'est vraiment une tâche importante !" Avant de partir, je n'ai pas oublié de faire une remarque sarcastique.</div>
-      </div>
-      
-      <div class="card" onclick="reveal(this)">
-        <div class="chinese">一刻钟后、我回到老板办公室。</div>
-        <div class="english hidden">A quarter of an hour later, I returned to the boss's office.</div>
-        <div class="japanese hidden">15分後、私は社長の事務所に戻りました。</div>
-        <div class="katakana hidden">15プン ゴ、ワタシ ハ シャチョウ ノ ジムショ ニ モドリマシタ。</div>
-        <div class="french hidden">Un quart d'heure plus tard, je suis revenu dans le bureau du patron.</div>
-      </div>
-      
-      <div class="card" onclick="reveal(this)">
-        <div class="chinese">"联系到了吗？"老板问。</div>
-        <div class="english hidden">"Did you contact them?" the boss asked.</div>
-        <div class="japanese hidden">「連絡は取れましたか？」と社長は尋ねました。</div>
-        <div class="katakana hidden">「レンラク ハ トレマシタカ？」ト シャチョウ ハ タズネマシタ。</div>
-        <div class="french hidden">"Les avez-vous contactés ?" a demandé le patron.</div>
-      </div>
-      
-      <div class="card" onclick="reveal(this)">
-        <div class="chinese">"联系到了、他们说可能下周过来。"</div>
-        <div class="english hidden">"Yes, I contacted them. They said they might come next week."</div>
-        <div class="japanese hidden">「はい、連絡を取りました。彼らは来週来るかもしれないと言っていました。」</div>
-        <div class="katakana hidden">「ハイ、レンラク ヲ トリマシタ。カレラ ハ ライシュウ クル カモシレナイ ト イッテイマシタ。」</div>
-        <div class="french hidden">"Oui, je les ai contactés. Ils ont dit qu'ils pourraient venir la semaine prochaine."</div>
-      </div>
-      
-      <div class="card" onclick="reveal(this)">
-        <div class="chinese">"具体是下周几？"老板问。</div>
-        <div class="english hidden">"Specifically, which day next week?" the boss asked.</div>
-        <div class="japanese hidden">「具体的には来週の何曜日ですか？」と社長は尋ねました。</div>
-        <div class="katakana hidden">「グタイテキ ニハ ライシュウ ノ ナンヨウビ デスカ？」ト シャチョウ ハ タズネマシタ。</div>
-        <div class="french hidden">"Plus précisément, quel jour de la semaine prochaine ?" a demandé le patron.</div>
-      </div>
-      
-      <div class="card" onclick="reveal(this)">
-          <div class="chinese">这个我没细问。</div>
-          <div class="english hidden">I didn't ask about this in detail.</div>
-          <div class="japanese hidden">これについて詳しく聞かなかった。</div>
-          <div class="katakana hidden">コレ ニ ツイテ クワシク キカナカッタ</div>
-          <div class="french hidden">Je n'ai pas posé de questions détaillées à ce sujet.</div>
-      </div>
-  
-      <div class="card" onclick="reveal(this)">
-          <div class="chinese">他们一行多少人。</div>
-          <div class="english hidden">How many people are in their group?</div>
-          <div class="japanese hidden">彼らの一行は何人ですか。</div>
-          <div class="katakana hidden">カレラ ノ イッコウ ワ ナンニン デスカ</div>
-          <div class="french hidden">Combien de personnes y a-t-il dans leur groupe ?</div>
-      </div>
-
-      <div class="card" onclick="reveal(this)">
-          <div class="chinese">啊！您没问我这个啊！</div>
-          <div class="english hidden">Ah! You didn't ask me about this!</div>
-          <div class="japanese hidden">あ！それを聞かれませんでしたね！</div>
-          <div class="katakana hidden">ア！ ソレ オ キカレマセンデシタネ！</div>
-          <div class="french hidden">Ah ! Vous ne m'avez pas demandé ça !</div>
-      </div>
-
-      <div class="card" onclick="reveal(this)">
-          <div class="chinese">那他们是坐火车还是飞机？</div>
-          <div class="english hidden">Are they taking a train or a plane?</div>
-          <div class="japanese hidden">彼らは電車で行くのか、それとも飛行機ですか？</div>
-          <div class="katakana hidden">カレラ ワ デンシャ デ イク ノカ、ソレトモ ヒコウキ デスカ？</div>
-          <div class="french hidden">Vont-ils prendre le train ou l'avion ?</div>
-      </div>
-
-      <div class="card" onclick="reveal(this)">
-          <div class="chinese">这个您也没叫我问呀！</div>
-          <div class="english hidden">You didn't ask me to inquire about this either!</div>
-          <div class="japanese hidden">これも聞くように言われませんでしたよ！</div>
-          <div class="katakana hidden">コレ モ キク ヨウニ イワレマセンデシタヨ！</div>
-          <div class="french hidden">Vous ne m'avez pas demandé de me renseigner sur cela non plus !</div>
-      </div>
-      
-      <div class="card" onclick="reveal(this)">
-        <div class="chinese">老板不再说什么了，他打电话叫朱政过来。</div>
-        <div class="english hidden">The boss didn't say anything more and called Zhu Zheng to come over.</div>
-        <div class="japanese hidden">上司はもう何も言わず、朱政に電話をかけて来てもらった。</div>
-        <div class="katakana hidden">ジョウシ ワ モウ ナニモ イワズ、シュセイ ニ デンワ オ カケテ キテモラッタ</div>
-        <div class="french hidden">Le patron n'a plus rien dit et a appelé Zhu Zheng pour qu'il vienne.</div>
-      </div>
-
-      <div class="card" onclick="reveal(this)">
-          <div class="chinese">朱政比我晚到公司一年，现在已是一个部门的负责人了。</div>
-          <div class="english hidden">Zhu Zheng joined the company a year after me, but he's already a department head now.</div>
-          <div class="japanese hidden">朱政は私より1年遅く会社に入ったが、今や部門の責任者になっている。</div>
-          <div class="katakana hidden">シュセイ ワ ワタシ ヨリ イチネン オソク カイシャ ニ ハイッタガ、イマヤ ブモン ノ セキニンシャ ニ ナッテイル</div>
-          <div class="french hidden">Zhu Zheng est arrivé dans l'entreprise un an après moi, mais il est déjà chef de département maintenant.</div>
-      </div>
-
-      <div class="card" onclick="reveal(this)">
-          <div class="chinese">他接到了与我刚才相同的任务，大约半小时后，朱政回来了。</div>
-          <div class="english hidden">He received the same task as I did earlier, and about half an hour later, Zhu Zheng returned.</div>
-          <div class="japanese hidden">彼は先ほど私と同じ任務を受け取り、約30分後に朱政が戻ってきた。</div>
-          <div class="katakana hidden">カレ ワ サキホド ワタシ ト オナジ ニンム オ ウケトリ、ヤク サンジュップン ゴ ニ シュセイ ガ モドッテキタ</div>
-          <div class="french hidden">Il a reçu la même tâche que moi plus tôt, et environ une demi-heure plus tard, Zhu Zheng est revenu.</div>
-      </div>
-  
-      <div class="card" onclick="reveal(this)">
-          <div class="chinese">"哦，是这样的一一"朱政答道："他们是乘下周五下午3点的飞机，大约晚上6点钟到，他们一行5人，由采购部王经理带队，我跟他们说了，我公司会派人到机场迎接。"</div>
-          <div class="english hidden">"Oh, it's like this," Zhu Zheng replied: "They're taking a flight at 3 PM next Friday, arriving around 6 PM. There are 5 people in their group, led by Manager Wang from the Purchasing Department. I told them our company would send someone to meet them at the airport."</div>
-          <div class="japanese hidden">"ああ、こうなんです"と朱政は答えた。"彼らは来週の金曜日午後3時の飛行機で、夜の6時頃に到着します。一行は5人で、購買部の王マネージャーが率いています。私たちの会社が空港まで迎えに行くと伝えました。"</div>
-          <div class="katakana hidden">"アー、コウ ナンデス" ト シュセイ ワ コタエタ。"カレラ ワ ライシュウ ノ キンヨウビ ゴゴ サンジ ノ ヒコウキ デ、ヨル ノ ロクジゴロ ニ トウチャクシマス。イッコウ ワ ゴニン デ、コウバイブ ノ オウ マネージャー ガ ヒキイテイマス。ワタシタチ ノ カイシャ ガ クウコウ マデ ムカエ ニ イク ト ツタエマシタ。"</div>
-          <div class="french hidden">"Oh, c'est comme ça," a répondu Zhu Zheng : "Ils prennent un vol à 15h vendredi prochain, arrivant vers 18h. Leur groupe compte 5 personnes, dirigé par le manager Wang du département des achats. Je leur ai dit que notre entreprise enverrait quelqu'un pour les accueillir à l'aéroport."</div>
-      </div>
-
-      <div class="card" onclick="reveal(this)">
-          <div class="chinese">"另外，他们计划考察两天时间，具体行程到了以后双方再商榷。为了方便工作，我建议把他们安置在附近的国际酒店，如果您同意，房间明天我就提前预订。"</div>
-          <div class="english hidden">"Additionally, they plan to spend two days on their inspection. The specific itinerary will be discussed by both parties after they arrive. For convenience, I suggest accommodating them at the nearby international hotel. If you agree, I'll book the rooms in advance tomorrow."</div>
-          <div class="japanese hidden">"さらに、彼らは2日間の視察を計画しています。具体的な日程は到着後に両者で話し合います。便宜上、近くの国際ホテルに宿泊させることをお勧めします。ご同意いただければ、明日部屋を事前に予約します。"</div>
-          <div class="katakana hidden">"サラニ、カレラ ワ ニチカン ノ シサツ オ ケイカク シテイマス。グタイテキ ナ ニッテイ ワ トウチャクゴ ニ リョウシャ デ ハナシアイマス。ベンギジョウ、チカク ノ コクサイ ホテル ニ シュクハク サセル コト オ オススメシマス。ゴドウイ イタダケレバ、アシタ ヘヤ オ ジゼン ニ ヨヤク シマス。"</div>
-          <div class="french hidden">"De plus, ils prévoient de passer deux jours pour leur inspection. L'itinéraire spécifique sera discuté par les deux parties après leur arrivée. Pour plus de commodité, je suggère de les loger à l'hôtel international à proximité. Si vous êtes d'accord, je réserverai les chambres à l'avance demain."</div>
-      </div>
-
-      <div class="card" onclick="reveal(this)">
-          <div class="chinese">"还有，下周天气预报有雨，我会随时和他们保持联系，一旦情况有变，我将随时向您汇报。"</div>
-          <div class="english hidden">"Also, next week's weather forecast shows rain. I'll keep in constant contact with them, and if there are any changes, I'll report to you immediately."</div>
-          <div class="japanese hidden">"また、来週の天気予報では雨が予想されています。私は常に彼らと連絡を取り、状況に変化があればすぐにご報告いたします。"</div>
-          <div class="katakana hidden">"マタ、ライシュウ ノ テンキヨホウ デワ アメ ガ ヨソウ サレテイマス。ワタシ ワ ツネニ カレラ ト レンラク オ トリ、ジョウキョウ ニ ヘンカ ガ アレバ スグニ ゴホウコク イタシマス。"</div>
-          <div class="french hidden">"De plus, les prévisions météorologiques pour la semaine prochaine annoncent de la pluie. Je resterai en contact constant avec eux, et s'il y a des changements, je vous en informerai immédiatement."</div>
-      </div>
-      
-      <div class="card" onclick="reveal(this)">
-          <div class="chinese">朱政出去后，老板拍了我一下说："现在我们来谈谈你提的问题。"</div>
-          <div class="english hidden">After Zhu Zheng left, the boss patted me and said, "Now let's talk about the issue you raised."</div>
-          <div class="japanese hidden">朱政が出て行った後、上司は私を軽くたたいて言った。「さて、あなたが提起した問題について話しましょう。」</div>
-          <div class="katakana hidden">シュセイ ガ デテイッタ アト、ジョウシ ワ ワタシ オ カルク タタイテ イッタ。「サテ、アナタ ガ テイキシタ モンダイ ニツイテ ハナシマショウ。」</div>
-          <div class="french hidden">Après le départ de Zhu Zheng, le patron m'a tapé sur l'épaule et a dit : "Maintenant, parlons du problème que vous avez soulevé."</div>
-      </div>
-
-      <div class="card" onclick="reveal(this)">
-          <div class="chinese">"不用了，我已经知道原因，打搅您了。"</div>
-          <div class="english hidden">"No need, I already know the reason. Sorry for bothering you."</div>
-          <div class="japanese hidden">「いいえ、もう理由はわかりました。お手数をおかけしました。」</div>
-          <div class="katakana hidden">「イイエ、モウ リユウ ワ ワカリマシタ。オテスウ オ オカケシマシタ。」</div>
-          <div class="french hidden">"Ce n'est pas nécessaire, j'ai déjà compris la raison. Désolé de vous avoir dérangé."</div>
-      </div>
-
-      <div class="card" onclick="reveal(this)">
-          <div class="chinese">我突然明白，没有谁生来就担当大任，都是从简单、平凡的小事做起，今天你为自己贴上什么样的标签，或许就决定了明天你是否会被委以重任。</div>
-          <div class="english hidden">I suddenly realized that no one is born to take on great responsibilities. Everyone starts with simple, ordinary tasks. The label you give yourself today might determine whether you'll be entrusted with important tasks tomorrow.</div>
-          <div class="japanese hidden">突然、誰も生まれながらにして大任を担うわけではないことに気づきました。みんな単純で平凡な小さなことから始めるのです。今日、自分にどんなラベルを貼るかが、明日重要な仕事を任されるかどうかを決めるかもしれません。</div>
-          <div class="katakana hidden">トツゼン、ダレモ ウマレナガラニシテ タイニン オ ニナウ ワケデワナイ コトニ キヅキマシタ。ミンナ タンジュンデ ヘイボンナ チイサナ コトカラ ハジメルノデス。キョウ、ジブンニ ドンナ ラベル オ ハルカガ、アシタ ジュウヨウナ シゴト オ マカサレルカドウカ オ キメル カモシレマセン。</div>
-          <div class="french hidden">J'ai soudainement réalisé que personne ne naît pour assumer de grandes responsabilités. Tout le monde commence par des tâches simples et ordinaires. L'étiquette que vous vous donnez aujourd'hui pourrait déterminer si vous serez chargé de tâches importantes demain.</div>
-      </div>
-
-      <div class="card" onclick="reveal(this)">
-          <div class="chinese">能力的差距直接影响到办事的效率，任何一个公司都迫切需要那些工作积极主动负责的员工。</div>
-          <div class="english hidden">The gap in abilities directly affects work efficiency. Every company urgently needs employees who are proactive and responsible in their work.</div>
-          <div class="japanese hidden">能力の差は仕事の効率に直接影響します。どの会社も、仕事に積極的で責任感のある従業員を切実に必要としています。</div>
-          <div class="katakana hidden">ノウリョク ノ サ ワ シゴト ノ コウリツ ニ チョクセツ エイキョウシマス。ドノ カイシャ モ、シゴト ニ セッキョクテキデ セキニンカン ノアル ジュウギョウイン オ セツジツニ ヒツヨウ トシテイマス。</div>
-          <div class="french hidden">L'écart de compétences affecte directement l'efficacité du travail. Toute entreprise a un besoin urgent d'employés proactifs et responsables dans leur travail.</div>
-      </div>
-
-      <div class="card" onclick="reveal(this)">
-          <div class="chinese">优秀的员工往往不是被动地等待别人安排工作，而是主动去了解自己应该做什么，然后全力以赴地去完成。</div>
-          <div class="english hidden">Excellent employees often don't passively wait for others to arrange their work, but actively seek to understand what they should do and then give their all to accomplish it.</div>
-          <div class="japanese hidden">優秀な従業員は、他人が仕事を割り当てるのを受動的に待つのではなく、自分が何をすべきかを積極的に理解し、それを全力で遂行します。</div>
-          <div class="katakana hidden">ユウシュウナ ジュウギョウイン ワ、タニン ガ シゴト オ ワリアテル ノオ ジュドウテキニ マツノデワナク、ジブン ガ ナニ オ スベキカ オ セッキョクテキニ リカイシ、ソレ オ ゼンリョクデ スイコウシマス。</div>
-          <div class="french hidden">Les employés excellents n'attendent pas passivement que d'autres organisent leur travail, mais cherchent activement à comprendre ce qu'ils doivent faire, puis donnent tout pour l'accomplir.</div>
+        <div class="hanyupinyin">4. Yǐjīng jiéshù de, jiù yǐjīng jiéshù le.</div>
+        <div class="english hidden">4. What is finished, is finished.</div>
+        <div class="japanese hidden">4. 終わったことは、もう終わっています。</div>
+        <div class="katakana hidden">4. オワッタ コトワ、モウ オワッテイマス。</div>
+        <div class="french hidden">4. Ce qui est fini, est fini.</div>
       </div>
     </div>
     
@@ -465,10 +143,10 @@
           card.querySelector('.english').classList.add('hidden');
           card.querySelector('.japanese').classList.add('hidden');
           card.querySelector('.katakana').classList.add('hidden');
-          card.querySelector('.french').classList.add('hidden'); // Hide French as well
+          card.querySelector('.french').classList.add('hidden');
         });
         // Play the sound effect
-        document.getElementById('sound-effect').play(); // Add this line
+        document.getElementById('sound-effect').play();
       }
 
       function reveal(card) {
@@ -486,7 +164,7 @@
           card.querySelector('.english').classList.add('hidden');
           card.querySelector('.japanese').classList.add('hidden');
           card.querySelector('.katakana').classList.add('hidden');
-          card.querySelector('.french').classList.add('hidden'); // Hide French on close as well
+          card.querySelector('.french').classList.add('hidden');
         }
       }
 
@@ -499,7 +177,7 @@
           case 'japanese':
             return 'ja-JP';
           case 'french':
-            return 'fr-FR'; // Assuming French audio should be in French
+            return 'fr-FR';
           default:
             return null;
         }
